@@ -13,3 +13,41 @@ font-size: 100px;
 font-weight: bold;
 color: khaki;
 }
+
+h2 {
+    background-color: mediumspringgreen; /* Background color */
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: center; /* Centers the text */
+    width: 100%; /* Ensures it spans the entire width */
+    margin: 0; /* Removes default margin */
+}
+
+img {
+    display: block; /* Ensures the image does not have extra space around it */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    width: auto; /* Adjusts width to maintain aspect ratio */
+    height: auto; /* Adjusts height to maintain aspect ratio */
+}
+
+h3 {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: black;
+    text-align: left; /* Aligns text to the left */
+}
+
+p {
+    font-family: Helvetica;
+    color: black;
+    text-align: left; /* Aligns text to the left */
+}
+
+p span {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
