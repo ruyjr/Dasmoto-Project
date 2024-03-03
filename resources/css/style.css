@@ -1,0 +1,15 @@
+.header-image {
+    background-image: url('/pattern.jpeg'); /* Adjust the path as needed */
+    text-align: center; /* Centers the text horizontally */
+    display: flex;
+    justify-content: center; /* This centers the child elements (the h1) horizontally */
+    align-items: center; /* This centers the child elements (the h1) vertically */
+    height: 300px; /* Adjust based on your image and preference */
+}
+
+h1 {
+font-family: Helvetica;
+font-size: 100px;
+font-weight: bold;
+color: khaki;
+}
